@@ -1,0 +1,62 @@
+.registration-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+ h2{
+    font-family: cursive;
+    font-size: 60px;
+    color: white;
+}
+.registration-form input{
+    width: 400px;
+    height: 30px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.registerButton {
+    
+   
+    background-color: orange;
+    border: none;
+    padding: 14px ;
+    width: 427px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+  }
+  .registerButton:hover {
+    background-color: #ff9633;
+    color: #000;
+  }
+  .google-button{
+    display: flex;
+    align-items: center;
+      margin-bottom: 50px;
+      background-color: #2196f3 ;
+      border: none;
+      padding: 14px ;
+      width: 427px;
+      font-size: 16px;
+      color:#000;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+      
+  }
+  .google-logo{
+     width: 20px;
+      height: 20px;
+      margin-right:20px;
+      margin-left:100px;
+      
+      
+      }
+      
